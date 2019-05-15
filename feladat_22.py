@@ -1,10 +1,10 @@
 negyjegyuek=[]
 palindrom=[]
 for i in range(1000,10000):
-    negyjegyuek.append(i)
+     negyjegyuek.append(i)
 for j in range(1000,10000):
-    for k in range(len(negyjegyuek)):
-        n=j*negyjegyuek[k]
+     for k in negyjegyuek:
+        n=j*k
         tmp=str(n)
         forditott=tmp[::-1]
         if(tmp==forditott):
